@@ -14,4 +14,5 @@ If you are going to use real-time images and perform your own calibration, use t
 
 If you are going to use already rectified data set images, you can use "*filteredDisparityMap.cpp*". The main is inside.
 **Caution**: it has absolute path in the code for the rectified images that should be used for the construction of the Disparity Map. You will need to change the absolute paths or change to use argv.
+
 **To compile**: g++ filteredDisparityMap.cpp -lopencv_core -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_calib3d -lopencv_features2d -lopencv_ximgproc -o veRun
