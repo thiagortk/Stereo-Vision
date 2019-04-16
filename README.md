@@ -10,7 +10,7 @@ The following examples were used:
 - Disparity map post-filtering (extra modules): https://docs.opencv.org/3.1.0/d3/d14/tutorial_ximgproc_disparity_filtering.html#gsc.tab=0
 - Color maps: http://docs.opencv.org/3.1.0/d3/d50/group__imgproc__colormap.html#gsc.tab=0
 
-If you are going to use real-time images and perform your own calibration, use the class: "*calibracao.cpp*" and then the "*disparity.cpp*". Build your main
+If you are going to use real-time images and perform your own calibration, use the class: "*calibracao.cpp*" and then the "*disparity.cpp*". Build your main to use these classes.
 
 If you are going to use already rectified data set images, you can use "*filteredDisparityMap.cpp*". The main is inside.
 **Caution**: it has absolute path in the code for the rectified images that should be used for the construction of the Disparity Map. You will need to change the absolute paths or change to use argv.
