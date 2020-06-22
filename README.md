@@ -1,6 +1,17 @@
 # stereoVision
 C++ example codes for camera calibration, rectification and to build disparity maps
 
+## Calibration
+[![Calibration](https://imgur.com/zJM0aEN)] 
+
+## Rectification
+[![Rectification](https://imgur.com/P8YgVTx)] 
+
+## Disparity Map
+[![Disparity Map](https://imgur.com/T8Z4C4Y)]
+
+## Infos
+
 Must have OpenCV 3.1 or later installed with extra modules.
 
 The following examples were used:
