@@ -2,13 +2,13 @@
 C++ example codes for camera calibration, rectification and to build disparity maps
 
 ## Calibration
-[![Calibration](https://i.imgur.com/zJM0aEN.jpg)]
+(https://i.imgur.com/zJM0aEN.jpg)
 
 ## Rectification
-[![Rectification](https://i.imgur.com/P8YgVTx.jpg)] 
+(https://i.imgur.com/P8YgVTx.jpg) 
 
 ## Disparity Map
-[![Disparity Map](https://i.imgur.com/T8Z4C4Y.jpg)]
+(https://i.imgur.com/T8Z4C4Y.jpg)
 
 ## Infos
 
@@ -24,6 +24,7 @@ The following examples were used:
 If you are going to use real-time images and perform your own calibration, use the class: "*calibracao.cpp*" and then the "*disparity.cpp*". Build your main to use these classes.
 
 If you are going to use already rectified data set images, you can use "*filteredDisparityMap.cpp*". The main is inside.
+
 **Caution**: it has absolute path in the code for the rectified images that should be used for the construction of the Disparity Map. You will need to change the absolute paths or change to use argv.
 
 **To compile**: g++ filteredDisparityMap.cpp -lopencv_core -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_calib3d -lopencv_features2d -lopencv_ximgproc -o veRun
