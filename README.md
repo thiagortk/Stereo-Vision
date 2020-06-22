@@ -2,13 +2,13 @@
 C++ example codes for camera calibration, rectification and to build disparity maps
 
 ## Calibration
-(https://i.imgur.com/zJM0aEN.jpg)
+![Calibration](https://i.imgur.com/zJM0aEN.jpg)
 
 ## Rectification
-(https://i.imgur.com/P8YgVTx.jpg) 
+![Rectification](https://i.imgur.com/P8YgVTx.jpg) 
 
 ## Disparity Map
-(https://i.imgur.com/T8Z4C4Y.jpg)
+![Disparity Map](https://i.imgur.com/T8Z4C4Y.jpg)
 
 ## Infos
 
