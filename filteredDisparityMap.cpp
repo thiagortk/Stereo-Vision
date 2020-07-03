@@ -35,7 +35,7 @@ Rect computeROI(Size2i src_sz, Ptr<StereoMatcher> matcher_instance){
 
 int main(int, char**){
 
-	bool no_display;
+    bool no_display;
     bool no_downscale;
     int max_disp, wsize; //Stereo correspondence parameters 
     double lambda, sigma; //Post-filter parameters
@@ -62,8 +62,9 @@ int main(int, char**){
    	Mat filtered_disp_vis, raw_disp_vis;
    	Mat imgCalorHSV, imgAdd, imgCalorHOT, imgCalorBONE;
 
+	/*Caution: the images path is absolute (hardcoded). You can change to user argv, or change these two lines below to your desired path.
+	The path here is defined for KITTI dataset images (http://www.cvlibs.net/datasets/kitti/raw_data.php).*/
 	VideoCapture videoOne("/City/City/2011_09_29_2/image_00/data/%10d.png"); //Absolute path to the KITTI left grey frames
-
 	VideoCapture videoTwo("/City/City/2011_09_29_2/image_01/data/%10d.png"); //Absolute path to the KITTI right grey frames
 
 	int width, height;
